@@ -1,2 +1,2 @@
 FROM mhart/alpine-node
-RUN apk-install make gcc g++ python git
+RUN apk add make gcc g++ libssh2
